@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras em css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .telhado {
+        /* aqui um triangulo */
+        width: 0px;
+        height: 150px;
+        border-left: 135px solid transparent;
+        border-right: 135px solid transparent;
+        border-top: 200px solid #f8017d;
+    }
+
+    .forma {
+        /* Aqui eu faço um trapézio, basicamente
+        um triangulo pra baixo com a border top sendo
+        a base, ai ele fica cortado usando o width*/
+        width: 170px;
+        height: px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 90px solid #ff03c8;
+    }
+
+    h1 {
+        border: 100px;
+    }
+</style>
+
+<body>
+    <h1>Pentagono</h1>
+    <div class="forma"></div>
+    <div class="telhado"></div>
+</body>
+
+</html>

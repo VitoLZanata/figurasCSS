@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras em css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .triangulo {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        /* Lado esquerdo invisível */
+        border-right: 50px solid transparent;
+        /* Lado direito invisível */
+        border-bottom: 100px solid #f10f0f;
+        /* A base que dá a cor */
+    }
+
+    h1 {
+        border: 100px;
+    }
+</style>
+
+<body>
+
+    <h1>Triângulo</h1>
+    <div class="triangulo"></div>
+</body>
+
+</html>
